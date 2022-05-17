@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:proyecto_drinks_001/src/screens/options_screen.dart';
 import 'package:proyecto_drinks_001/src/utils/colors_palette.dart';
@@ -10,18 +9,16 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SplashScreenView(
-      navigateRoute: OptionsScreen(),
-      backgroundColor: ColorPalette.colorPrimary,
-      duration: 5000,
-      imageSrc: "assets/images/movies_logo.png",
-      imageSize: 200,
-      text: "Norber Apps Dev. 2.0",
-      textStyle: TextStyle(
-        fontSize: 35,
-        fontWeight: FontWeight.bold,
-        color: ColorPalette.colorLime,
-        fontFamily: "ArchitectsDaughter"
-      )
-    );
+        navigateRoute: OptionsScreen(),
+        backgroundColor: ColorPalette.colorPrimary,
+        duration: 5000,
+        imageSrc: "assets/images/snacks.jpg",
+        imageSize: 200,
+        text: "Norber Apps Dev. 2.0",
+        textStyle: TextStyle(
+            fontSize: 35,
+            fontWeight: FontWeight.bold,
+            color: ColorPalette.colorLime,
+            fontFamily: "ArchitectsDaughter"));
   }
 }
